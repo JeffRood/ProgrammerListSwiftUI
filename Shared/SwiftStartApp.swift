@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftStartApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListView().environmentObject(ProgrammerModelData())
         }
     }
 }
